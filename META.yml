@@ -1,8 +1,8 @@
----
+--- #YAML:1.0
 name: Device-Quasar3108
-version: 0.02
+version: 0.03
 author:
-  - 'Nicholas J Humfrey, njh@ecs.soton.ac.uk'
+  - Nicholas J Humfrey, njh@ecs.soton.ac.uk
 abstract: Control Quasar Electronics Serial I/O Module
 license: perl
 requires:
@@ -15,5 +15,5 @@ build_requires:
 provides:
   Device::Quasar3108:
     file: lib/Device/Quasar3108.pm
-    version: 0.02
-generated_by: Module::Build version 0.26
+    version: 0.03
+generated_by: Module::Build version 0.2611
